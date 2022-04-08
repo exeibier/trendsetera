@@ -5,13 +5,10 @@
             <div class="logo"><a href="{{route('front.index')}}"><img src="{{asset('img/logo.png')}}" alt="Trendsétera"></a></div>
             <div class="info">
                 <p>
-                    <b>NUEVOS CLIENTES</b>
+                    <a href="mailto:hola@trendsetera.com.mx">HOLA@TRENDSETERA.COM.MX</a>
                 </p>
                 <p>
-                    porum expliqu odicae quodicias as experorae eos
-                </p>
-                <p>
-                    <a href="mailto:INFO@TRENDSETERA.COM">INFO@TRENDSETERA.COM</a>
+                    <a href="tel:+5552509603">CONTACTO: +(55) 5250 9603</a>
                 </p>
             </div>
         </div>

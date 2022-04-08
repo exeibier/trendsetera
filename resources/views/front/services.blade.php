@@ -21,7 +21,7 @@
                         <a href="{{route('front.expertise')}}" class="menu-expertise ">INTEGRATED EXPERTISE <div class="line"></div></a>
                         <a href="{{route('front.clients')}}" class="menu-clients ">OUR CLIENTS <div class="line"></div></a>
                         <a href="{{route('front.services')}}" class="menu-services ">OUR SERVICES <div class="line"></div></a>
-                        <div class="services-box">
+                        {{-- <div class="services-box">
                             <a href="{{route('front.services.marketing')}}" class="menu-services-marketing reveal-down-1">MARKETING CONSULTING</a>
                             <a href="{{route('front.services.pr')}}" class="menu-services-pr reveal-down-2">PR</a>
                             <a href="{{route('front.services.experience')}}" class="menu-services-experience reveal-down-3">EXPERIENCE</a>
@@ -30,7 +30,7 @@
                             <a href="{{route('front.services.social')}}" class="menu-services-social reveal-down-6">SOCIAL MEDIA</a>
                             <a href="{{route('front.services.content')}}" class="menu-services-content reveal-down-7">CONTENT</a>
                             <a href="{{route('front.services.branding')}}" class="menu-services-branding reveal-down-8">BRANDING</a>
-                        </div>
+                        </div> --}}
                         <a href="{{route('front.team')}}" class="menu-team ">OUR TEAM <div class="line"></div></a>
                         <a href="{{route('front.contact')}}" class="menu-contact ">CONTACT <div class="line"></div></a>
                     </div>
@@ -50,10 +50,19 @@
             <div class="col-lg-3 reveal-left">
                 <div class="number">5.</div>
                 <div class="title"><h2>SERVICES</h2></div>
-                <div class="info">
-                    <h4>
-                        SA DOLENDIT QUE A EA SEQUIAE PTATUR, QUID ET AUTAT VOLUPTI
-                    </h4>
+                <div class="menu-services">
+                    <div class="links">
+                        <div class="services-box">
+                            <a href="{{route('front.services.marketing')}}" class="menu-services-marketing ">MARKETING CONSULTING</a>
+                            <a href="{{route('front.services.pr')}}" class="menu-services-pr ">PR</a>
+                            <a href="{{route('front.services.experience')}}" class="menu-services-experience ">EXPERIENCE</a>
+                            <a href="{{route('front.services.btl')}}" class="menu-services-btl ">BTL</a>
+                            <a href="{{route('front.services.irm')}}" class="menu-services-irm ">IRM</a>
+                            <a href="{{route('front.services.social')}}" class="menu-services-social ">SOCIAL MEDIA</a>
+                            <a href="{{route('front.services.content')}}" class="menu-services-content ">CONTENT</a>
+                            <a href="{{route('front.services.branding')}}" class="menu-services-branding ">BRANDING</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

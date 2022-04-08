@@ -6,7 +6,7 @@
         <a href="{{route('front.expertise')}}" class="menu-expertise ">INTEGRATED EXPERTISE <div class="line"></div></a>
         <a href="{{route('front.clients')}}" class="menu-clients ">OUR CLIENTS <div class="line"></div></a>
         <a href="{{route('front.services')}}" class="menu-services ">OUR SERVICES <div class="line"></div></a>
-        <div class="services-box">
+        {{-- <div class="services-box">
             <a href="{{route('front.services.marketing')}}" class="menu-services-marketing ">MARKETING CONSULTING</a>
             <a href="{{route('front.services.pr')}}" class="menu-services-pr ">PR</a>
             <a href="{{route('front.services.experience')}}" class="menu-services-experience ">EXPERIENCE</a>
@@ -15,8 +15,8 @@
             <a href="{{route('front.services.social')}}" class="menu-services-social ">SOCIAL MEDIA</a>
             <a href="{{route('front.services.content')}}" class="menu-services-content ">CONTENT</a>
             <a href="{{route('front.services.branding')}}" class="menu-services-branding ">BRANDING</a>
-        </div>
-        <a href="{{route('front.team')}}" class="menu-team ">OUR TEAM <div class="line"></div></a>
+        </div> --}}
+        <a href="#"class="menu-team ">OUR TEAM <div class="line"></div></a>{{--"{{route('front.team')}}" --}}
         <a href="{{route('front.contact')}}" class="menu-contact ">CONTACT <div class="line"></div></a>
     </div>
     <div class="social ">

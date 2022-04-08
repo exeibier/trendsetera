@@ -1,8 +1,8 @@
-<title>Trensetera</title>
+<title>Trendsetera</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Trensetera" />
-<meta name="keywords" content="Trensetera" />
+<meta name="description" content="Trendsetera" />
+<meta name="keywords" content="Trendsetera" />
 <meta name="robots" content="index,follow">
 <meta name="author" content="Vannelo - http://www.vannelo.com" />
 <meta name="copyright" content="Vannelo - http://www.vannelo.com" />

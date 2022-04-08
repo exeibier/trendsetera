@@ -12,30 +12,29 @@
 
 /* TIPOGRAFÍA */
 @font-face {
-    font-family: 'Aguila';
+    font-family: "Aguila";
     src: url("../fonts/Aguila-Regular.otf");
     font-weight: 300;
 }
 @font-face {
-    font-family: 'Aguila';
+    font-family: "Aguila";
     src: url("../fonts/Aguila-Heavy.otf");
     font-weight: 600;
 }
 @font-face {
-    font-family: 'Block';
+    font-family: "Block";
     src: url("../fonts/Block-Regular.otf");
     font-weight: 300;
 }
 @font-face {
-    font-family: 'Block';
+    font-family: "Block";
     src: url("../fonts/Block-Heavy.otf");
     font-weight: 600;
 }
 
-
 /* GENERAL */
 * {
-    font-family: 'Aguila', sans-serif;
+    font-family: "Aguila", sans-serif;
 }
 .master-box {
     padding: 40px;
@@ -55,21 +54,22 @@
     font-size: 60px;
 }
 .page-general .subtitle h3 {
-    font-family: 'Block';
+    font-family: "Block";
     font-size: 16px;
     font-weight: 600;
 }
 .page-general .text p {
-    font-family: 'Block';
+    font-family: "Block";
     font-size: 16px;
 }
 .page-general .info h4 {
-    font-family: 'Block';
+    font-family: "Block";
     font-weight: 600;
 }
 
 /* MENU */
-.menu-desktop {}
+.menu-desktop {
+}
 .menu-desktop .logo {
     margin-bottom: 20px;
 }
@@ -89,14 +89,14 @@
 .menu-desktop .links a .line {
     width: 100%;
     height: 3px;
-    transition-duration: .2s;
+    transition-duration: 0.2s;
 }
 .menu-desktop .links a:hover .line {
     background-color: black;
     animation-name: line;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-    transition-duration: .2s;
+    transition-duration: 0.2s;
 }
 .menu-desktop .links .active .line {
     background-color: black;
@@ -113,38 +113,52 @@
 .menu-desktop .social img {
     width: 35px;
 }
-.menu-desktop .services-box {
-    text-align: right;
+
+.menu-services .links a {
+    display: block;
+    color: black;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.menu-services .services-box {
+    text-align: left;
     display: none;
     padding-left: 40px;
     margin: 10px 0;
 }
-.menu-desktop .services-box a {
-    font-family: 'Block';
+.menu-services .services-box a {
+    font-family: "Block";
     font-size: 16px;
     padding: 4px 0;
     text-decoration: none;
 }
-.menu-desktop .services-box a:hover {
+.menu-services .services-box a:hover {
     font-weight: 600;
     text-decoration: none;
 }
-.menu-desktop .services-box .active {
+.menu-services .services-box .active {
     font-weight: 600;
     text-decoration: none;
 }
 
 /* ANIMATION */
 @keyframes line {
-    from {width:0;}
-    to {width:100%;}
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
 }
 
 /* PAGE HOME */
-.page-home {}
+.page-home {
+}
 
 /* PAGE CLIENTS */
-.page-clients {}
+.page-clients {
+}
 .page-clients .number {
     display: inline-block;
 }
@@ -167,17 +181,18 @@
     margin: 40px 0;
 }
 .page-clients .clients-box .item {
-    font-family: 'Block';
+    font-family: "Block";
 }
 .page-clients .clients-box .item b {
-    font-family: 'Block';
+    font-family: "Block";
 }
 .page-clients .clients-box .space {
     height: 20px;
 }
 
 /* PAGE SERVICES */
-.page-services {}
+.page-services {
+}
 .page-services .title {
     margin-top: 100px;
 }
@@ -190,7 +205,8 @@
 }
 
 /* PAGE TEAM */
-.page-team {}
+.page-team {
+}
 .page-team .photo-box {
     text-align: center;
 }
@@ -204,11 +220,11 @@
     margin-bottom: 20px;
 }
 .page-team .name {
-    font-family: 'Block';
+    font-family: "Block";
     font-weight: 600;
 }
 .page-team .position {
-    font-family: 'Block';
+    font-family: "Block";
     font-weight: 600;
     color: #848484;
     margin-bottom: 10px;
@@ -218,7 +234,8 @@
 }
 
 /* PAGE CONTACT */
-.page-contact {}
+.page-contact {
+}
 .page-contact h2 {
     margin-top: 20px;
     font-size: 40px !important;
@@ -227,13 +244,13 @@
     margin-bottom: 40px;
 }
 .page-contact .contact-info b {
-    font-family: 'Block' !important;
+    font-family: "Block" !important;
 }
 .page-contact .contact-info p {
-    font-family: 'Block' !important;
+    font-family: "Block" !important;
 }
 .page-contact .contact-info a {
-    font-family: 'Block' !important;
+    font-family: "Block" !important;
     font-weight: 600;
     color: black;
     text-decoration: none;
@@ -241,9 +258,10 @@
 .page-contact .contact-info .box-border {
     border-right: 1px solid black;
 }
-.page-contact .contact-form {}
+.page-contact .contact-form {
+}
 .page-contact .contact-form .label {
-    font-family: 'Block';
+    font-family: "Block";
     font-weight: 600;
     color: black;
     margin-bottom: 10px;
@@ -263,7 +281,7 @@
     text-align: right;
 }
 .page-contact .contact-form button {
-    font-family: 'Block';
+    font-family: "Block";
     font-weight: 600;
     background-color: black;
     border: none;
@@ -285,16 +303,14 @@ footer .logo img {
     width: 80%;
 }
 footer .info b {
-    font-family: 'Block';
+    font-family: "Block";
 }
 footer .info a {
-    font-family: 'Block';
+    font-family: "Block";
     color: black;
     text-decoration: none;
     font-weight: 600;
 }
-
-
 
 /* RESPONSIVE */
 @media only screen and (max-width: 1000px) {
@@ -310,9 +326,6 @@ footer .info a {
     .show-mobile {
         display: block !important;
     }
-
-
-
 }
 
 @media only screen and (min-width: 1000px) {
@@ -322,12 +335,4 @@ footer .info a {
     .show-mobile {
         display: none;
     }
-
 }
-
-
-
-
-
-
-
