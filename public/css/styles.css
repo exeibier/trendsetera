@@ -1,0 +1,333 @@
+/*!
+* TRENDSETERA
+* Version - 1.0
+* Author: Vannelo - http://vannelo.com
+
+* - RESOURCES -
+* COLORS
+* ACCENT: #;
+* ACCENT: #;
+
+*/
+
+/* TIPOGRAFÍA */
+@font-face {
+    font-family: 'Aguila';
+    src: url("../fonts/Aguila-Regular.otf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Aguila';
+    src: url("../fonts/Aguila-Heavy.otf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Block';
+    src: url("../fonts/Block-Regular.otf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Block';
+    src: url("../fonts/Block-Heavy.otf");
+    font-weight: 600;
+}
+
+
+/* GENERAL */
+* {
+    font-family: 'Aguila', sans-serif;
+}
+.master-box {
+    padding: 40px;
+    overflow-x: hidden;
+}
+.page-general .image img {
+    width: 100%;
+}
+.page-general .number {
+    font-size: 100px;
+    font-weight: 600;
+}
+.page-general .title {
+    margin-bottom: 20px;
+}
+.page-general .title h2 {
+    font-size: 60px;
+}
+.page-general .subtitle h3 {
+    font-family: 'Block';
+    font-size: 16px;
+    font-weight: 600;
+}
+.page-general .text p {
+    font-family: 'Block';
+    font-size: 16px;
+}
+.page-general .info h4 {
+    font-family: 'Block';
+    font-weight: 600;
+}
+
+/* MENU */
+.menu-desktop {}
+.menu-desktop .logo {
+    margin-bottom: 20px;
+}
+.menu-desktop .logo img {
+    width: 90%;
+}
+.menu-desktop .links {
+    margin: 20px 0;
+}
+.menu-desktop .links a {
+    display: block;
+    color: black;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.menu-desktop .links a .line {
+    width: 100%;
+    height: 3px;
+    transition-duration: .2s;
+}
+.menu-desktop .links a:hover .line {
+    background-color: black;
+    animation-name: line;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-duration: .2s;
+}
+.menu-desktop .links .active .line {
+    background-color: black;
+}
+.menu-desktop .links .active:hover .line {
+    animation-name: none;
+}
+.menu-desktop .social {
+    margin: 20px 0;
+}
+.menu-desktop .social a {
+    margin-right: 5px;
+}
+.menu-desktop .social img {
+    width: 35px;
+}
+.menu-desktop .services-box {
+    text-align: right;
+    display: none;
+    padding-left: 40px;
+    margin: 10px 0;
+}
+.menu-desktop .services-box a {
+    font-family: 'Block';
+    font-size: 16px;
+    padding: 4px 0;
+    text-decoration: none;
+}
+.menu-desktop .services-box a:hover {
+    font-weight: 600;
+    text-decoration: none;
+}
+.menu-desktop .services-box .active {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* ANIMATION */
+@keyframes line {
+    from {width:0;}
+    to {width:100%;}
+}
+
+/* PAGE HOME */
+.page-home {}
+
+/* PAGE CLIENTS */
+.page-clients {}
+.page-clients .number {
+    display: inline-block;
+}
+.page-clients .title {
+    display: inline-block;
+}
+.page-clients .divider-1 {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+.page-clients .divider-2 {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+.page-clients .clients-box {
+    margin: 40px 0;
+}
+.page-clients .clients-box .item {
+    font-family: 'Block';
+}
+.page-clients .clients-box .item b {
+    font-family: 'Block';
+}
+.page-clients .clients-box .space {
+    height: 20px;
+}
+
+/* PAGE SERVICES */
+.page-services {}
+.page-services .title {
+    margin-top: 100px;
+}
+.page-services .title h1 {
+    font-weight: 600;
+    font-size: 50px;
+}
+.page-services .service h2 {
+    font-size: 60px;
+}
+
+/* PAGE TEAM */
+.page-team {}
+.page-team .photo-box {
+    text-align: center;
+}
+.page-team .photo-box .photo {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.page-team .name {
+    font-family: 'Block';
+    font-weight: 600;
+}
+.page-team .position {
+    font-family: 'Block';
+    font-weight: 600;
+    color: #848484;
+    margin-bottom: 10px;
+}
+.page-team .text {
+    margin-bottom: 20px;
+}
+
+/* PAGE CONTACT */
+.page-contact {}
+.page-contact h2 {
+    margin-top: 20px;
+    font-size: 40px !important;
+}
+.page-contact .contact-info {
+    margin-bottom: 40px;
+}
+.page-contact .contact-info b {
+    font-family: 'Block' !important;
+}
+.page-contact .contact-info p {
+    font-family: 'Block' !important;
+}
+.page-contact .contact-info a {
+    font-family: 'Block' !important;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+.page-contact .contact-info .box-border {
+    border-right: 1px solid black;
+}
+.page-contact .contact-form {}
+.page-contact .contact-form .label {
+    font-family: 'Block';
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+}
+.page-contact .contact-form input {
+    border-radius: 0;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.page-contact .contact-form textarea {
+    height: 205px;
+    border-radius: 0;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.page-contact .contact-form .right {
+    text-align: right;
+}
+.page-contact .contact-form button {
+    font-family: 'Block';
+    font-weight: 600;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 100px;
+    background-color: #e6e5e6;
+    padding: 40px 60px;
+    font-size: 12px;
+}
+footer .logo {
+    margin-bottom: 20px;
+}
+footer .logo img {
+    width: 80%;
+}
+footer .info b {
+    font-family: 'Block';
+}
+footer .info a {
+    font-family: 'Block';
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1000px) {
+    .menu-desktop {
+        display: none;
+    }
+    .menu-mobile {
+        display: block;
+    }
+    .hide-mobile {
+        display: none !important;
+    }
+    .show-mobile {
+        display: block !important;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .hide-mobile {
+        display: block;
+    }
+    .show-mobile {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
