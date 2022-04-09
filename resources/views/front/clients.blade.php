@@ -79,21 +79,14 @@
                                     <div class="item">Sterimar</div>
                                     <div class="space"></div>
                                 </div>
+                            </div>
+                            <div class="col-lg-2">
                                 <div class="animation-block reveal-down-6">
                                     <div class="item"><b>RBI</b></div>
                                     <div class="item">Popeyes</div>
                                     <div class="item">Burger King</div>
                                     <div class="space"></div>
                                 </div>
-                                {{-- <div class="animation-block reveal-down-5">
-                                <div class="item"><b>CUERVO</b></div>
-                                <div class="item">José Cuervo</div>
-                                <div class="item">Don Julio</div>
-                                <div class="item">1800</div>
-                                <div class="item">Maestro Dobel</div>
-                            </div> --}}
-                            </div>
-                            <div class="col-lg-2">
                                 <div class="animation-block reveal-down-2">
                                     <div class="item"><b>Grupo Modelo</b></div>
                                     <div class="item">Corona</div>
