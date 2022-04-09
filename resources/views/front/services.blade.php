@@ -31,7 +31,7 @@
                             <a href="{{route('front.services.content')}}" class="menu-services-content reveal-down-7">CONTENT</a>
                             <a href="{{route('front.services.branding')}}" class="menu-services-branding reveal-down-8">BRANDING</a>
                         </div> --}}
-                        <a href="{{route('front.team')}}" class="menu-team ">OUR TEAM <div class="line"></div></a>
+                        <a href="#" class="menu-team ">OUR TEAM <div class="line"></div></a>
                         <a href="{{route('front.contact')}}" class="menu-contact ">CONTACT <div class="line"></div></a>
                     </div>
                     <div class="social ">
