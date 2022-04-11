@@ -35,10 +35,10 @@
                         <a href="{{route('front.contact')}}" class="menu-contact ">CONTACT <div class="line"></div></a>
                     </div>
                     <div class="social ">
-                        <a href="https://www.instagram.com/" target="_blank"><img src="{{asset('img/social-1.jpg')}}" alt="Trendsétera en Instagram"></a>
-                        <a href="https://www.facebook.com/" target="_blank"><img src="{{asset('img/social-2.jpg')}}" alt="Trendsétera en Instagram"></a>
-                        <a href="https://twitter.com/" target="_blank"><img src="{{asset('img/social-3.jpg')}}" alt="Trendsétera en Instagram"></a>
-                        <a href="https://www.tiktok.com/" target="_blank"><img src="{{asset('img/social-4.jpg')}}" alt="Trendsétera en Instagram"></a>
+                        <a href="https://www.instagram.com/trendsetera/" target="_blank"><img src="{{asset('img/social-1.jpg')}}" alt="Trendsétera en Instagram"></a>
+                        <a href="https://www.facebook.com/TRENDSETERA.COM.MX" target="_blank"><img src="{{asset('img/social-2.jpg')}}" alt="Trendsétera en Instagram"></a>
+                        <a href="https://twitter.com/TRENDSETERA" target="_blank"><img src="{{asset('img/social-3.jpg')}}" alt="Trendsétera en Instagram"></a>
+                        <a href="#" target="_blank"><img src="{{asset('img/social-4.jpg')}}" alt="Trendsétera en Instagram"></a>
                     </div>
                 </div>
             </div>
@@ -53,14 +53,14 @@
                 <div class="menu-services">
                     <div class="links">
                         <div class="services-box">
-                            <a href="{{route('front.services.marketing')}}" class="menu-services-marketing ">MARKETING CONSULTING</a>
-                            <a href="{{route('front.services.pr')}}" class="menu-services-pr ">PR</a>
-                            <a href="{{route('front.services.experience')}}" class="menu-services-experience ">EXPERIENCE</a>
-                            <a href="{{route('front.services.btl')}}" class="menu-services-btl ">BTL</a>
-                            <a href="{{route('front.services.irm')}}" class="menu-services-irm ">IRM</a>
-                            <a href="{{route('front.services.social')}}" class="menu-services-social ">SOCIAL MEDIA</a>
-                            <a href="{{route('front.services.content')}}" class="menu-services-content ">CONTENT</a>
-                            <a href="{{route('front.services.branding')}}" class="menu-services-branding ">BRANDING</a>
+                            <a href="#" class="menu-services-marketing ">MARKETING CONSULTING</a>
+                            <a href="#" class="menu-services-pr ">PR</a>
+                            <a href="#" class="menu-services-experience ">EXPERIENCE</a>
+                            <a href="#" class="menu-services-btl ">BTL</a>
+                            <a href="#" class="menu-services-irm ">IRM</a>
+                            <a href="#" class="menu-services-social ">SOCIAL MEDIA</a>
+                            <a href="#" class="menu-services-content ">CONTENT</a>
+                            <a href="#" class="menu-services-branding ">BRANDING</a>
                         </div>
                     </div>
                 </div>

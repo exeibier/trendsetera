@@ -35,10 +35,10 @@
                         <a href="{{route('front.contact')}}" class="menu-contact reveal-down-7">CONTACT <div class="line"></div></a>
                     </div>
                     <div class="social reveal-down-8">
-                        <a href="https://www.instagram.com/" target="_blank"><img src="{{asset('img/social-1.jpg')}}" alt="Trendsétera en Instagram"></a>
-                        <a href="https://www.facebook.com/" target="_blank"><img src="{{asset('img/social-2.jpg')}}" alt="Trendsétera en Instagram"></a>
-                        <a href="https://twitter.com/" target="_blank"><img src="{{asset('img/social-3.jpg')}}" alt="Trendsétera en Instagram"></a>
-                        <a href="https://www.tiktok.com/" target="_blank"><img src="{{asset('img/social-4.jpg')}}" alt="Trendsétera en Instagram"></a>
+                        <a href="https://www.instagram.com/trendsetera/" target="_blank"><img src="{{asset('img/social-1.jpg')}}" alt="Trendsétera en Instagram"></a>
+                        <a href="https://www.facebook.com/TRENDSETERA.COM.MX" target="_blank"><img src="{{asset('img/social-2.jpg')}}" alt="Trendsétera en Instagram"></a>
+                        <a href="https://twitter.com/TRENDSETERA" target="_blank"><img src="{{asset('img/social-3.jpg')}}" alt="Trendsétera en Instagram"></a>
+                        <a href="#" target="_blank"><img src="{{asset('img/social-4.jpg')}}" alt="Trendsétera en Instagram"></a>
                     </div>
                 </div>
             </div>

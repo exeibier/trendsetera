@@ -34,7 +34,7 @@
                                     <div class="item">Nescafé</div>
                                     <div class="item">Kit Kat</div>
                                     <div class="item">Nespresso</div>
-                                    <div class="item">CofeeMate</div>
+                                    <div class="item">Cofee Mate</div>
                                     <div class="item">Starbucks At Home</div>
                                     <div class="item">Purina</div>
                                     <div class="item">NAN</div>
@@ -45,7 +45,6 @@
                                     <div class="item">Consomate</div>
                                     <div class="item">Dog Chow</div>
                                     <div class="item">Maternal Nutrition</div>
-                                    <div class="item">Secret</div>
                                     <div class="item">Nestlé Professional</div>
                                     <div class="item">Svelty</div>
                                     <div class="item">Gerber</div>
@@ -107,12 +106,11 @@
                                     <div class="item"><b>SOFITEL</b></div>
                                     <div class="item"><b>BMW</b></div>
                                     <div class="item"><b>LEVY HOLDING</b></div>
-                                    <div class="item"><b>BEAT</b></div>
                                     <div class="item"><b>DECATHLON</b></div>
                                     <div class="item"><b>MERCK</b></div>
                                     <div class="item"><b>MSD</b></div>
-                                    <div class="item"><b>DIDI</b></div>
                                     <div class="item"><b>LVMH (Europe)</b></div>
+                                    <div class="item"><b>PROCTER AND GAMBLE</b></div>
                                 </div>
                             </div>
                             <div class="col-lg-2">
@@ -134,7 +132,7 @@
                                     <div class="item"><b>KONFIO</b></div>
                                     <div class="item"><b>FONDEADORA</b></div>
                                     <div class="item"><b>MABE</b></div>
-                                    <div class="item"><b>SPLENDA</b></div>
+                                    <div class="item"><b>SPLENTA</b></div>
                                 </div>
                             </div>
                         </div>
