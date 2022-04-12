@@ -99,14 +99,6 @@
                                     <div class="item">Corporate</div>
                                     <div class="space"></div>
                                 </div>
-                                <div class="animation-block reveal-down-6">
-                                    <div class="item"><b>NESTLÉ WATER</b></div>
-                                    <div class="item">Perrier</div>
-                                    <div class="item">S.Pellegrino</div>
-                                    <div class="item">Acqua Panna</div>
-                                    <div class="item">Sta María</div>
-                                    <div class="space"></div>
-                                </div>
                             </div>
                             <div class="col-lg-2">
                                 <div class="animation-block reveal-down-6">
