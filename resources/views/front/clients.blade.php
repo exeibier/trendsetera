@@ -72,7 +72,6 @@
                                     <div class="item"><b>LVMH (Europe)</b></div>
                                     <div class="item"><b>MABE</b></div>
                                     <div class="item"><b>MERCK LATAM</b></div>
-                                    <div class="item"><b>MERCK CENTRO AMERICA & <br>CONO SUR</b></div>
                                     <div class="item"><b>MSD</b></div>
                                 </div>
                             </div>
@@ -94,7 +93,6 @@
                                     <div class="item">Dog Chow</div>
                                     <div class="item">Maternal Nutrition</div>
                                     <div class="item">Nestlé Professional</div>
-                                    <div class="item">Svelty</div>
                                     <div class="item">Gerber</div>
                                     <div class="item">Corporate</div>
                                     <div class="space"></div>
@@ -102,7 +100,7 @@
                             </div>
                             <div class="col-lg-2">
                                 <div class="animation-block reveal-down-6">
-                                    <div class="item"><b>NESTLÉ WATER</b></div>
+                                    <div class="item"><b>NESTLÉ WATERS</b></div>
                                     <div class="item">Perrier</div>
                                     <div class="item">S.Pellegrino</div>
                                     <div class="item">Acqua Panna</div>
@@ -123,8 +121,8 @@
                             <div class="col-lg-2">
                                 <div class="animation-block reveal-down-11">
                                     <div class="animation-block reveal-down-2">
-                                        <div class="item"><b>SPLENTA</b></div>
-                                        <div class="item"><b>SALVATORE FERRAGAMO</b></div>
+                                        <div class="item"><b>SPLENDA</b></div>
+                                        <div class="item"><b>FERRAGAMO</b></div>
                                         <div class="item"><b>SIX FLAGS</b></div>
                                         <div class="item"><b>SOFITEL</b></div>
                                         <div class="item"><b>TOUS</b></div>
