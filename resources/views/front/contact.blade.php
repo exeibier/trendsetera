@@ -23,7 +23,7 @@
                                 <b>RELACIONES PÚBLICAS</b>
                             </p>
                             <p>
-                                <a href="mailto:lolmedo@trendstera.com.mx">lolmedo@trendstera.com.mx</a>
+                                <a href="mailto:lolmedo@trendsetera.com.mx">lolmedo@trendsetera.com.mx</a>
                             </p>
                         </div>
                         <div class="col-lg-4 box-border reveal-left">
